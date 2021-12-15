@@ -1,7 +1,7 @@
 
 import React, { useEffect, useReducer } from 'react';
 import { useParams } from 'react-router-dom';
-import { apiGet } from '../misc/config';
+import { apiGet } from '../mics/config';
 
 const reducer = (prevState, action) => {
   switch (action.type) {
