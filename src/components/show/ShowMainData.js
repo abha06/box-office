@@ -17,6 +17,7 @@ const ShowMainData = ({ name, rating, summary, tags, image }) => {
         </Headline>
         <div
           className="summary"
+          // eslint-disable-next-line
           dangerouslySetInnerHTML={{ __html: summary }}
         />
 
