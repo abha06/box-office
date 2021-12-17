@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://abha06.github.io/box-office",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -39,9 +39,8 @@
     "format": "prettier --write src/**/*.js",
     "format:lint": "npm run format && npm run lint",
     "clear": "rimraf dist .parcel-cache",
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-          
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
